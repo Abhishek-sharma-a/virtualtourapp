@@ -1,6 +1,7 @@
 import React from 'react'
 import '../pages/Menu.css'
 import { Link } from 'react-router-dom'
+import Button from '../components/Button'
 
 const Menu = () => {
   return (
@@ -10,17 +11,20 @@ const Menu = () => {
         <div className='links'>
           <ul>
             <li>
-              <Link to={"/"}>EXPLORE</Link>
-              <Link to={"/"}>COMMUNITY</Link>
-              <Link to={"/"}>PRICING</Link>
-              <Link to={"/"}>REALTOR?</Link>
-              <Link to={"/"}>KNOWLEDGEBASE</Link>
+              <Link to={"/explore"}>EXPLORE</Link>&nbsp;&nbsp;&nbsp;&nbsp;
+              <Link to={"/Community"}>COMMUNITY</Link>&nbsp;&nbsp;&nbsp;&nbsp;
+              <Link to={"/Pricing"}>PRICING</Link>&nbsp;&nbsp;&nbsp;&nbsp;
+              <Link to={"/Realtor"}>REALTOR?</Link>&nbsp;&nbsp;&nbsp;&nbsp;
+              <Link to={"/Knowledgebase"}>KNOWLEDGEBASE</Link>&nbsp;&nbsp;&nbsp;&nbsp;
             </li>
+
           </ul>
         </div>
 
         <div className='social'>
-
+          <input type="search" placeholder='Search' />
+          <div> <Button tittle="Create Tour"></Button></div>
+          <div> <Button tittle="Login" ></Button></div>
         </div>
 
       </div>

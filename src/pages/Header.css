@@ -1,6 +1,10 @@
 .header{
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid white;
+ 
+    
 }
 ul li{
     list-style: none;
@@ -9,5 +13,6 @@ ul li{
 
 .topbar-list  a {
     text-decoration: none;
-    color :gray
+    color :white;
+    
 }

@@ -1,6 +1,28 @@
 .links a{
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+ padding: 20px;
+    
+}
+.social input{
+    margin: 0px 10px;
+
+}
+Button{
+    margin: 0px 10px;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    gap:10px;
+}
+
