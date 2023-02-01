@@ -4,6 +4,13 @@ import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import Explore from '../src/pages/explore'
+import Pricing from "../src/pages/Pricing"
+import Community from '../src/pages/Community'
+import Realtor from '../src/pages/Realtor'
+
+import Knowledgebase from "../src/pages/Knowledgebase"
+
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -13,9 +20,7 @@ function App() {
       <Header/>
       <Menu/>
      <Routes>
-        <Route path="/" exact element={<Home/>} />
-        <Route path="/about" exact element={<About/>} />
-        <Route path="*" element={<NotFound/>} />
+        {/* <Route path="/" exact element={<Home/>} /> */}
       
         </Routes>
         <Footer/>
@@ -24,3 +29,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+

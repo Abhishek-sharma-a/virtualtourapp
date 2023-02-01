@@ -28,12 +28,13 @@ const Header = () => {
                         <li>
 
                             <Link to={"/"} className='ms-3'>Socail </Link>
-                            <Link to={"/"} className='ms-3'> <BsTwitter /> <BsFacebook /> <BsYoutube /> </Link>
+                            <Link to={"/"} className='ms-3'> <BsTwitter /> </Link>
+                            <Link to={"/"} className='ms-3'> <BsFacebook /> </Link>
+                            <Link to={"/"} className='ms-3'>  <BsYoutube /> </Link>
                         </li>
                     </ul>
                 </div>
             </div>
-            {/* bkufhgiu */}
         </>
     )
 }
