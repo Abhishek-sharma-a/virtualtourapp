@@ -11,21 +11,19 @@ import Realtor from '../src/pages/Realtor'
 
 import Knowledgebase from "../src/pages/Knowledgebase"
 
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Menu />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/explore" exact element={<Explore />} />
-        <Route path="/community" exact element={<Community />} />
-        <Route path="/pricing" exact element={<Pricing />} />
-        <Route path="/realtor" exact element={<Realtor />} />
-        <Route path="/knowledgebase" exact element={<Knowledgebase />} />
-      </Routes>
-      <Footer />
+      <Header/>
+      <Menu/>
+     <Routes>
+        {/* <Route path="/" exact element={<Home/>} /> */}
+      
+        </Routes>
+        <Footer/>
     </div>
   );
 }
