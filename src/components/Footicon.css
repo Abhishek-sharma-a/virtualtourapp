@@ -1,0 +1,10 @@
+
+.flist a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.flist a:hover{
+color: #878787;
+font-size: large;
+}
