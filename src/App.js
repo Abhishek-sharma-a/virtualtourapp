@@ -4,6 +4,8 @@ import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Header/>
       <Menu/>
      <Routes>
-        {/* <Route path="/" exact element={<Home/>} /> */}
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/about" exact element={<About/>} />
+        <Route path="*" element={<NotFound/>} />
       
         </Routes>
         <Footer/>
