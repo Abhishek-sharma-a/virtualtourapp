@@ -5,13 +5,15 @@ import App from './App';
 import ScrollToTop from './utilities/ScrollToTop';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<BrowserRouter>
-<ScrollToTop/>
-    <App />
+    <BrowserRouter>
+        <ScrollToTop />
+        <App />
     </BrowserRouter>
 );
 
