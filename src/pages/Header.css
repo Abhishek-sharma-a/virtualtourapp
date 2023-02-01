@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+ 
+}
+
+.topbar-list  a {
+    text-decoration: none;
+    color :gray
+}
