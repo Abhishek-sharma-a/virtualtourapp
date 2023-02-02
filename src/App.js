@@ -13,17 +13,33 @@ import Knowledgebase from "../src/pages/Knowledgebase"
 
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+// import Register from "./pages/Register";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Menu/>
-     <Routes>
-        {/* <Route path="/" exact element={<Home/>} /> */}
-      
-        </Routes>
-        <Footer/>
+      <Header />
+      <Menu />
+
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/explore" exact element={<Explore />} />
+        <Route path="/pricing" exact element={<Pricing />} />
+        <Route path="/community" exact element={<Community />} />
+        <Route path="/realtor" exact element={<Realtor />} />
+        <Route path="/knowledgebase" exact element={<Knowledgebase />} />
+        <Route path="/NotFound" exact element={<NotFound />} />
+        <Route path="/login" exact element={<Login />} />
+         <Route path="/register" exact element={<Register />} /> 
+        <Route path="/About" exact element={<About />} />
+
+
+
+
+      </Routes>
+      <Footer />
     </div>
   );
 }

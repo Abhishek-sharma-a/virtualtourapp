@@ -1,10 +1,10 @@
 import React from 'react'
 import "../components/Button.css"
 
-const Button = props => {
+const Button = ({tittle}) => {
   return (
     <>
-      <button className="rounded mx-1" >{props.tittle}</button>
+      <button className="rounded mx-1" >{tittle} </button>
     </>
   )
 }
