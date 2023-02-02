@@ -27,7 +27,7 @@ const Header = () => {
                     <ul>
                         <li>
 
-                            <Link to={"/"} className='ms-3'>Socail </Link>
+                       
                             <Link to={"/"} className='ms-3'> <BsTwitter /> </Link>
                             <Link to={"/"} className='ms-3'> <BsFacebook /> </Link>
                             <Link to={"/"} className='ms-3'>  <BsYoutube /> </Link>

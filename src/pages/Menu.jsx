@@ -24,7 +24,7 @@ const Menu = () => {
         <div className='social'>
           <input type="search" placeholder='Search' />
           <div> <Button tittle="Create Tour"></Button></div>
-          <div> <Button tittle="Login" ></Button></div>
+          <div><Link to="/login"><Button tittle={"Login"} ></Button></Link></div>
         </div>
 
       </div>
