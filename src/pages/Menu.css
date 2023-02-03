@@ -48,7 +48,6 @@ li {
   animation: flicker-in-1 2s linear both;
 }
 
-
 @keyframes flicker-in-1 {
   0% {
     opacity: 0;
@@ -174,3 +173,6 @@ li {
     opacity: 1;
   }
 }
+
+
+

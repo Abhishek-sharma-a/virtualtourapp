@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <>
 
-      <div className='menu flicker-in-1 '>
+      <div className='menu flicker-in-1  roll-in-blurred-left'>
         <div className='links  '>
           <ul>
             <li>
