@@ -1,9 +1,17 @@
-import React from 'react'
-
+import React from "react";
+import ThreeSixty from "react-360-view";
+import x from "../components/imgpsh_fullsize_anim.jpg"
 const Realtor = () => {
   return (
-    <div><h1>Realtor</h1></div>
-  )
-}
+    <div>
+      <ThreeSixty
+        amount={36}
+        imagePath={x}
+        fileName={x}
+        
+      />
+    </div>
+  );
+};
 
-export default Realtor
+export default Realtor;
