@@ -1,17 +1,12 @@
-import React from "react";
-import ThreeSixty from "react-360-view";
-import x from "../components/imgpsh_fullsize_anim.jpg"
+import React from 'react'
+import photo from "../assets/photo.jpg"
+import Banner from '../components/Banner'
+
 const Realtor = () => {
   return (
-    <div>
-      <ThreeSixty
-        amount={36}
-        imagePath={x}
-        fileName={x}
-        
-      />
-    </div>
-  );
-};
+    <Banner h1={"EXPLORE THE PLACE WHICH YOU LIKE"} p={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, laudantium."} bgphoto={photo} />
 
-export default Realtor;
+  )
+}
+
+export default Realtor

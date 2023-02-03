@@ -1,54 +1,56 @@
-/* input{
-    padding: 10px;
+  .form input{
+
+    padding: 5px;
     margin-left: 50px;
     margin: 10px 50px;
     border-radius: 10px;
     border-bottom: 1px;
-}
-.click input {
+} 
+ .click input {
     width: 80%;
     margin-left: 10px;
-}
+} 
  button{
     margin-left: 50px;
     background-color: rgb(169, 40, 40);
     border: none;
-    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     color: white;
     
-}
+} 
 button:hover{
     background-color: rgb(179, 78, 78);
 }
 .registerbtn{
     text-decoration: none;
     color: white;
-}
-.form{
+} 
+ .form{
     display: flex;
     justify-content: center;
-}
+} 
 .log{
     text-align: center;
 }
-.loginbox{
-    margin: 80px 0px;
-}
-.submitbtn {
+ .loginbox{
+    margin: 90px 0px;
+} 
+/* .submitbtn {
     margin-top: 30px;
     margin-left: 263px;
     
-}
+} */
 .click p{
     font-size: 12px;
     text-align: center;
-    color: brown;
+    color:white;
     margin-top: 20px;
 }
-.click button{
+
+ .click button{
     width: 50%;
     margin-left: 55px;
     margin-top: 10px;
-} */
+    border-radius: 10px;
+}   

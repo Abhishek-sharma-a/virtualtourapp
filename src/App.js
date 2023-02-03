@@ -19,11 +19,12 @@ import Register from "./pages/Register";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
       <Menu />
 
       <Routes>
+
         <Route path="/" exact element={<Home />} />
         <Route path="/explore" exact element={<Explore />} />
         <Route path="/pricing" exact element={<Pricing />} />

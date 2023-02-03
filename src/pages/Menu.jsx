@@ -7,8 +7,8 @@ const Menu = () => {
   return (
     <>
 
-      <div className='menu roll-in-blurred-left'>
-        <div className='links'>
+      <div className='menu flicker-in-1  roll-in-blurred-left'>
+        <div className='links  '>
           <ul>
             <li>
               <Link to={"/explore"}>EXPLORE</Link>&nbsp;&nbsp;&nbsp;&nbsp;

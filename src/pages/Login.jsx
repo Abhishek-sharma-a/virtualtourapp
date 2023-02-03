@@ -3,7 +3,7 @@ import './Login.css';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useState } from 'react';
-import { Button } from 'bootstrap';
+import  Button  from '../components/Button';
 
 const Login = () => {
   const int = {
@@ -45,9 +45,9 @@ const Login = () => {
           <form className="click" method='post'>
             <input type="email" name="email" placeholder='enter your email' onChange={inputEvent} required /> <br />
             <input type='password' name="password" placeholder="password" onChange={inputEvent} required /> <br />
-            <button type="submit" onClick={Submit}>Log in</button> &nbsp;<br />
+            <Button type="submit" onClick={Submit} tittle="Log in"></Button> &nbsp;<br />
             <p>Don't have an account ? Register Now!</p>
-            <button> <Link className='registerbtn' to="/register" tittle={"Register"}>Register</Link> </button>
+            <Button tittle="Register"> <Link className='registerbtn' to="/register" tittle={"Register"} ></Link> </Button>
           </form>
         </div>
       </div>
