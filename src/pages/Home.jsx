@@ -1,16 +1,20 @@
 import React from 'react'
+import Banner from '../components/Banner'
+import "./Home.css";
+import photo from "../assets/photo.jpg"
+
 
 const Home = () => {
   return (
     <>
-    <div style={{textAlign:"center" , height:"500px"}}>
-    <h1>EXPLORE THE PLACE WHICH YOU LIKE</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, laudantium.
-    </p>
-    </div>
 
-  
-     
+
+
+      <Banner h1={"EXPLORE THE PLACE WHICH YOU LIKE"} p={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, laudantium."} bgphoto={photo} />
+
+
+
+
     </>
   )
 }

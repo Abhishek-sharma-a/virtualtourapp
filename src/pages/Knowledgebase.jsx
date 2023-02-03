@@ -1,10 +1,11 @@
 import React from 'react'
+import photo from "../assets/communityimg.jpg"
+import Banner from '../components/Banner'
 
 const Knowledgebase = () => {
     return (
-        <div>
-            <h1>Knowledgebase</h1>
-            </div>
+        <Banner h1={"EXPLORE THE PLACE WHICH YOU LIKE"} p={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, laudantium."} bgphoto={photo} />
+
     )
 }
 
